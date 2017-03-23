@@ -1,3 +1,25 @@
 <resources>
+    <!-- Nombre de la aplicación -->
     <string name="app_name">App</string>
+
+    <!-- Textos de las vistas -->
+    <string name="enter_your_name">Ingrese su nombre</string>
+    <string name="enter_your_Profession">Profesión</string>
+    <string name="enter_your_age">Ingrese su edad</string>
+    <string name="enter_your_phone">Ingrese su teléfono</string>
+
+
+    <!-- Profesiones -->
+    <string-array name="profession">
+        <item>----------------</item>
+        <item>Ingeniero</item>
+        <item>Abogado</item>
+        <item>Médico</item>
+        <item>Arquitecto</item>
+        <item>Periodista</item>
+        <item>Veterinario</item>
+        <item>Dentista</item>
+    </string-array>
+
+
 </resources>

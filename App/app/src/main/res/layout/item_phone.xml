@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lv1"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp"
+        android:weightSum="1">
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilPhone"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="0dp"
+            android:padding="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <AutoCompleteTextView
+                android:id="@+id/txtPhone"
+                android:layout_width="175dp"
+                android:layout_marginRight="11dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_phone"
+                android:textColorHint="@color/colorAccent"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_height="48dp"
+            android:layout_width="31dp"
+            android:textColor="#fff"
+            android:theme="@style/AppTheme.Button"
+            android:background="@drawable/ic_plus"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginEnd="12dp"
+            android:layout_alignBottom="@+id/imgPerson"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.11" />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_height="48dp"
+            android:layout_width="37dp"
+            android:textColor="#fff"
+            android:theme="@style/AppTheme.Button"
+            android:background="@drawable/ic_minus"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginEnd="12dp"
+            android:layout_alignBottom="@+id/imgPerson"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+
+
+</FrameLayout>
