@@ -4,9 +4,10 @@
 
     <!-- Textos de las vistas -->
     <string name="enter_your_name">Ingrese su nombre</string>
-    <string name="enter_your_Profession">Profesión</string>
+    <string name="enter_your_Profession">Seleccione su profesión</string>
     <string name="enter_your_age">Ingrese su edad</string>
     <string name="enter_your_phone">Ingrese su teléfono</string>
+    <string name="enter_your_address">Ingrese su dirección</string>
 
 
     <!-- Profesiones -->

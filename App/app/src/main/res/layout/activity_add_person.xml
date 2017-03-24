@@ -109,11 +109,18 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
+        android:id="@+id/viewPagerPhone"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/tilAge"
-        android:layout_gravity="fill" />
+        android:layout_gravity="fill"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/viewPagerPhone"
+        android:layout_gravity="fill"/>
 
 
 </RelativeLayout>

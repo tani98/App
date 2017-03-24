@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:id="@+id/lv1"
-        android:layout_width="332dp"
-        android:layout_height="wrap_content"
+        android:layout_width="353dp"
+        android:layout_height="102dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -18,23 +18,23 @@
         android:weightSum="3">
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilPhone"
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
+            android:layout_width="166dp"
+            android:layout_height="87dp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="0dp"
             android:padding="2dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="0.24">
+            android:layout_weight="0.52">
 
             <AutoCompleteTextView
-                android:id="@+id/txtPhone"
-                android:layout_width="match_parent"
-                android:layout_marginRight="0dp"
+                android:id="@+id/txtAddress"
+                android:layout_width="175dp"
+                android:layout_marginRight="11dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/enter_your_phone"
+                android:hint="@string/enter_your_address"
                 android:textColorHint="@color/colorAccent"
-                android:inputType="number"
+                android:inputType="textMultiLine"
                 android:maxLines="1"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
